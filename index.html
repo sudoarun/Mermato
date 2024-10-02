@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
+    <title>Coding Assesment L2 boilerplate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <section>
+      <div class="container">
+        <h1 class="headingText">Select Your Choice</h1>
+        <div class="flex justify-center">
+          <div class="btn-group" role="group" aria-label="Selector group">
+            <button
+              type="button"
+              class="btn btn-primary active"
+              id="btn1"
+              onclick="showProducts('men')"
+            >
+              Men
+            </button>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              id="btn2"
+              onclick="showProducts('women')"
+            >
+              Women
+            </button>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              id="btn3"
+              onclick="showProducts('kids')"
+            >
+              Kids
+            </button>
+          </div>
+        </div>
+        <div class="products" id="product-group"></div>
+      </div>
+    </section>
+    <!-- Happy coding 😊 -->
+    <script src="./script.js"></script>
+  </body>
+</html>
